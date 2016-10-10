@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-    articleone: {
+    'articleone': {
       title: 'ArticleOne - Karthik',
       heading: 'Article One',
       date: '10 Oct 2016',
@@ -16,7 +16,7 @@ var articles = {
             <p>We will open registration for the exam soon. A form has to be filled and the certification exam has a fee, which needs to be paid at the time of registration. Everyone who has signed-up for the course, including those who do not register for the exam, will continue to have access to the course contents.
             </p>`
     },
-    articletwo: {
+    'articletwo': {
       title: 'ArticleTwo - Karthik',
       heading: 'Article Two',
       date: '12 Oct 2016',
