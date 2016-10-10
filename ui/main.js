@@ -1,11 +1,11 @@
 console.log('Loaded!');
 
 //Change the Main Text
-var element = document.getElementByID('mainText');
+var element = document.getElementById('mainText');
 element.innerHTML = "New Text";
 
 //Move the Image
-var imgElement = document.getElementByID("madi");
+var imgElement = document.getElementById("madi");
 imgElement.onClick = function(){
     var interval = setInterval(moveRight, 100);
 }
