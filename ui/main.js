@@ -8,7 +8,7 @@ element.innerHTML = "New Text";
 var imgElement = document.getElementById("madi");
 imgElement.onClick = function(){
     var interval = setInterval(moveRight, 100);
-}
+};
 
 var marginLeft = 0;
 function moveRight(){
